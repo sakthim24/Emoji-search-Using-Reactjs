@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Nosifer&display=swap');
+body{
+  background-color: #E06D06;
+}
+
+@media only screen and (min-width: 360px) {
+  .emoji{
+    font-size: 100%;
+    position: absolute;
+    left: 7%;
+    top:60%;
+    height: 40%;
+    width:95%;
+    display:grid;
+    grid-template-columns: repeat(10 ,1fr);
+    border: 2px solid #252627;
+    border-radius: 5px;
+    background-color: #2D2E2E;
+    overflow: hidden;
+    overflow-y: scroll;
+  }
+  #search{
+    font-family: 'Nosifer', cursive;
+    position: absolute;
+    left: 7%;
+    color: azure;
+    top: 50%;
+    height:5%;
+    width: 94%;
+    border: 2px solid #252627;
+    border-radius: 5px;
+    background-color: #2D2E2E;
+  }
+  .display{
+    background-color: #2D2E2E;
+    font-size: 120%;
+    position: absolute;
+    left: 7%;
+    top: 35%;
+    height: 10%;
+    border: 2px solid #252627;
+    border-radius: 5px;
+    width: 95%;
+    padding-top: 2px;
+    overflow: hidden;
+    overflow-y: auto;
+  }
+  .clear{  
+    position: absolute;
+    left: 100%;
+    top: 31%;
+    height:8%;
+    width: 8%; 
+  }
+    
+  .head{
+    font-family: 'Nosifer', cursive;
+    font-size: 200%;
+    font-weight: 800;
+    position: absolute;
+    left: 30%;
+    top: 8%;
+  }
+}
+@media only screen and (min-width: 480px) {
+  .head{
+    font-size: 250%;
+    left: 30%;
+    top: 5%;
+  }
+  .emoji{
+    left: 8%;
+    width: 85%;
+    height: 32%;
+  }
+  #search{
+    left: 8%;
+    width: 84%;
+    font-size: 80%;
+  }
+  .display{
+    left: 8%;
+    width: 85%;
+  }
+  .clear{  
+    left: 93%;
+    top: 32%;
+    height: 4%;
+    width: 5%; 
+  }
+
+}
+@media only screen and (min-width: 600px) {
+  .emoji{
+    font-size: 170%;
+    left: 7%;
+    width:85%;
+    
+  }
+  #search{
+    left: 7%;
+    width: 84.5%;
+  }
+  .display{
+  
+    font-size: 170%;
+    left: 7%;
+    top: 30%;
+    height: 14%; 
+    width: 85.5%;
+  }
+  .clear{  
+    left: 91.5%;
+    top: 26%;
+    height:5%;
+    width: 5%; 
+  }
+  .head{
+    font-size: 250%;
+    font-weight: 800;
+    left: 30%;
+    top: 2%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .emoji{
+    font-size: 170%;
+    left: 12%;
+    width:75%; 
+  }
+  #search{
+    left: 12%;
+    width:74.5%; 
+  }
+  .display{
+    font-size: 170%;
+    top: 30%;
+    height: 14%; 
+    left: 12%;
+    width:75%; 
+  }
+  .clear{  
+    left: 86.5%;
+    top: 25.5%;
+    height:4%;
+    width: 4%; 
+  }
+  .head{
+    left: 26%;
+    top: 5%;
+  }
+}
+@media only screen and (min-width: 900px) {
+  .head{
+    font-size: 350%;
+    left: 17%;
+    top: 5%;
+  }
+  .emoji{
+    font-size: 200%;
+  }
+  .display{
+    font-size: 200%;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .head{
+    font-size: 350%;
+    left: 17%;
+    top: 5%;
+  }
+  .emoji{
+    font-size: 250%;
+  }
+  .display{
+    font-size: 250%;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .emoji{
+    font-size: 200%;
+    left: 25%;
+    top:52%;
+    height: 40%;
+    width:50%;
+  }
+ .display{
+    font-size: 220%;
+    left: 25%;
+    top: 25%;
+    height: 15%;
+    width: 50%;
+  }
+  .clear{  
+    left: 75%;
+    top: 22%;
+    height:5%;
+    width: 2%;
+  }
+  .head{
+    font-size: 270%;
+    left: 30%;
+    top: 8%;
+  
+  }
+  #search{
+    left: 25%;
+    top: 45%;
+    height:5%;
+    width: 49.7%;
+  }
+}  
